@@ -1,13 +1,19 @@
 let	nameUser
 let commandHeader
 let commandBox
+// window.onload = function() {
+// 	if(!window.location.hash) {
+// 		window.location = window.location + '#loaded';
+// 		window.location.reload();
+// 	}
+// }
 $.fn.typewriter = function() {
     this.each(function() {
       var c = $(this),
         b = c.html(),
         a = 0,
         d = 0;
-      c.html("");
+     // c.html("");
       var e = function() {
         if ("<" == b.substring(a, a + 1)) {
           var f = new RegExp(/<span class="instant"/),
@@ -26,6 +32,7 @@ $.fn.typewriter = function() {
     });
     return this
   }
+
   $(".welcome").typewriter();
   $(".message").typewriter();
 
@@ -84,7 +91,7 @@ let cdCommand = (command, output) => {
 		
 		output.innerHTML = `<p class="bio">
 		       <p class="bio" >
-				<span style='font-weight: bold; color: #f600f6'> </span> Utkarsh Agarwal  | utkarsh135 <br>
+				<span style='font-weight: bold; color: #f600f6'>  Utkarsh Agarwal  | utkarsh135 <br></span>
 				I am a CSE undergraduate at <span style='color: #ffa500'>Ramaiah Institute of Technology </span> and a core member at Numera-RIT . </span>
 			 	<span>Eye-poppingly prolific <span style='color: #ffa500'>Full Stack web and Flutter App Developer </span>with a passion for metrics and beating former "best-yets", with over a year experience and willingness to master Problem Solving skills , to provide effective solution to real world problems and giving it back to the community.
                 </br>
@@ -95,7 +102,7 @@ let cdCommand = (command, output) => {
 				</br>
 				 I may be able to solve <strike>all</strike> <span style='color: #ffff4d'>some</span> of your problems.
 			</p> ${commandBox}`
-             $(".bio").typewriter();
+			
 		
 		} else if (command.split(' ')[1] == 'CERTIFICATES'){
 			commandBox = commandHeader + `<span>/Certificates/</span>` + input 
