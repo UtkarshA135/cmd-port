@@ -1,7 +1,8 @@
 # CLI-Portfolio
-My portfolio - with theme of command prompt.
-Made only using the HTML , CSS and JS 
-No libraries used.
+- My portfolio - with theme of command prompt.
+- Made only using the HTML , CSS and JS 
+- No libraries used.
+- Do star the repo if you like my work :)
 ## How to use
 
 In the portfolio powershell
