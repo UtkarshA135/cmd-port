@@ -11,7 +11,9 @@ type LS to view the directories
 ```
 ## Snapshots
 
-![Bio]()
+![Bio](https://github.com/UtkarshA135/cmd-port/blob/main/Saved%20Pictures/bio.png)
+![Cert](https://github.com/UtkarshA135/cmd-port/blob/main/Saved%20Pictures/cert.png)
+![Skills](https://github.com/UtkarshA135/cmd-port/blob/main/Saved%20Pictures/skills.png)
 
 
 ## Deployment
