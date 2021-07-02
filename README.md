@@ -10,4 +10,4 @@ type LS to view the directories
 
 ## Deployment
 
-### [CLI-Portfolio](https://shreyans13.github.io/CLI-Portfolio/index.html)
+### [CLI-Portfolio](https://utkarsha135.github.io/cmd-port/)
